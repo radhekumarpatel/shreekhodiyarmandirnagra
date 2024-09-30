@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khodiyar Mandir Nagra</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Styles -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      color: #333;
+      overflow-x: hidden;
+      background-image: url('khodiyar_temple.png'); /* Set your logo image as background */
+      background-size: cover; /* Cover the background */
+      background-position: center; /* Center background image */
+      background-attachment: fixed;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 50px 0; /* Adjusted padding */
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem; /* Adjusted font size */
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      text-align: center;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #444;
+      position: relative;
+    }
+
+    .container h2:after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: #e74c3c;
+      margin: 10px auto 0;
+      animation: growLine 1s ease;
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #111;
+      margin: 0 auto;
+      line-height: 1.6;
+      text-align: justify; /* Ensure full line coverage */
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05); /* Slight zoom on hover */
+    }
+    .whatsapp-section {
+    background-color: #f0f8ff; /* Light background color */
+    border: 2px solid #25D366; /* WhatsApp green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the section */
+    margin: 20px 0; /* Margin around the section */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.whatsapp-section h2 {
+    color: #25D366; /* WhatsApp green color for headings */
+    text-align: center; /* Center the heading */
+    font-size: 24px; /* Increase font size */
+}
+
+.whatsapp-section p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.5; /* Improved line spacing */
+    text-align: center; /* Center the text */
+}
+
+.whatsapp-section ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.whatsapp-section li {
+    font-size: 18px; /* Increase font size for list items */
+    margin: 10px 0; /* Spacing between list items */
+}
+
+.whatsapp-section i {
+    color: #25D366; /* Icon color */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+    .map-container {
+      width: 1100px; /* Set a fixed width for the square shape */
+      height: 300px; /* Set a fixed height for the square shape */
+      margin: 20px auto; /* Center the map container */
+      border: 3px solid #e74c3c;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+  padding: 15px 0; /* Vertical padding */
+  text-align: center; /* Center text */
+  font-family: 'Raleway', sans-serif; /* Match header font */
+}
+
+footer p {
+  font-size: 1rem; /* Font size */
+  letter-spacing: 1px; /* Letter spacing for readability */
+  margin: 0; /* Reset margin */
+  animation: fadeIn 1s ease-in-out; /* Animation for consistency */
+}
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes growLine {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem; /* Adjusted for smaller screens */
+      }
+
+      .container h2 {
+        font-size: 2rem;
+      }
+
+      .map-container {
+        height: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>આઈ શ્રી ખોડિયાર માં મંદિર - નગરા</h1>
+    <p>શ્રી ખોડિયાર મંદિર નગરા આપનું હાર્દિક સ્વાગત કરે છે.</p>
+  </header>
+
+  <div class="container">
+    <h2>ખોડિયાર મંદિરનો ઈતિહાસ</h2>
+    <p>ખોડિયાર મંદિર નગરા લગભગ 800 વર્ષથી આસ્થાનું કેન્દ્ર બન્યું છે. મૂળરૂપે આ મંદિરનું નિર્માણ વણજારા સમાજ દ્વારા કરવામાં આવ્યું હતું, પરંતુ કુદરતી આફતોના કારણે મંદિરનું એક સમયે વિઘટન થયું.ત્યારબાદ, શ્રી અંબાલાલભાઈ વેણાભાઈ પટેલે મંદિરના પુનઃનિર્માણ માટે પોતાના ખાનગી ખેતીના જમીનનું દાન કર્યું અને મંદિરનું નવું, નિર્માણ કાર્ય શરૂ કર્યું. આ મંદિર ગામના સૌજન્ય, શ્રદ્ધા અને અંબાલાલભાઈના યોગદાનનું જીવંત પ્રતીક છે. આજથી લગભગ 12 વર્ષ પૂર્વે,શ્રી ખોડિયાર ભજન મંડળ - નગરા અને ગામના રહેવાસીઓએ મળીને આ ભવ્ય મંદિરના નિર્માણમાં સંપૂર્ણ સહકાર આપ્યો અને ત્યાં વર્ષો જૂની વાવ આવેલી છે જે એક પ્રાચીન કામ નો ઉત્તમ નમૂનો પણ છે.સમુદાયની આ શ્રદ્ધા અને સમર્પણના કારણે મંદિર આજે શોભાયમાન છે. ગામના લોકોની માન્યતા છે કે ખોડિયાર માતાના આ મંદિરમાં પૂજન અને દર્શન કરવાથી દરેકની મનોકામનાઓ પૂર્ણ થાય છે. આ મંદિર માત્ર એક ધાર્મિક સ્થાન જ નહીં, પણ સમગ્ર ગામના લોકોના આદર્શો અને સમર્પણનું પ્રતીક છે, જ્યાં માતાજીના આશીર્વાદથી આત્મિક શાંતિ અને સમૃદ્ધિ મળે છે.</p>
+    
+    <div class="whatsapp-section">
+      <h2>દૈનિક દર્શન માટે ગ્રુપમાં જોડાવા માટે</h2>
+      <p style="text-align: center;">જો તમે Daily દર્શન માટે અમારા WhatsApp ગ્રુપમાં જોડાવા ઈચ્છતા હોવ, તો કૃપા કરીને નીચેના નંબરો પર સંપર્ક કરો:</p>
+      <ul>
+          <li><i class="fab fa-whatsapp"></i> +91 8490055779</li>
+          <li><i class="fab fa-whatsapp"></i> +91 8490008818</li>
+      </ul>
+  </div>
+  
+  
+    <h2>શ્રી ખોડિયાર માં અને મંદિર ના દર્શન </h2>
+    <div class="gallery">
+      <img src="1.jpg" alt="Temple View 1">
+      <img src="2.jpg" alt="Temple View 2">
+      <img src="3.jpg" alt="Idol View 1">
+      <img src="4.jpg" alt="Idol View 2">
+      <img src="5.jpg" alt="Temple View 3">
+      <img src="6.jpg" alt="Idol View 3">
+      <img src="7.jpg" alt="Idol View 3">
+      <img src="8.jpg" alt="Idol View 3">
+      <img src="12.jpg" alt="Idol View 3">
+      <img src="11.jpg" alt="Idol View 3">
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <h2>નવરાત્રિ, ખોડલજયંતિ: ખોડિયાર માતાના અનંત આશીર્વાદોની ઉજવણી</h2>
+    <p>આપણે ખોડિયાર માતાના મંદિરમાં હર્ષ અને ઊજવણી સાથે નવરાત્રીનો ઉત્સવ ઉજવીએ છીએ. નવરાત્રી દરમિયાન, ભક્તો માતાની આરાધના કરી કઠિન તપસ્યા દ્વારા તેની કૃપા પ્રાપ્ત કરે છે. માતાના આશીર્વાદ સાથે લોકો તેમના જીવનમાં આનંદ અને સમૃદ્ધિ મેળવે છે. ખોડલ જયંતિ, જે ખોડિયાર માતાના જન્મદિવસ તરીકે ઉજવાય છે, તે અહીં વિશેષ ધૂમધામ સાથે ઉજવવામાં આવે છે. આ પ્રસંગે ભક્તો માટે વિશેષ પૂજા, દર્શન અને કાર્યક્રમોની વ્યવસ્થા કરવામાં આવે છે. ખોડિયાર માતા પર શ્રદ્ધા રાખવાથી ભક્તો તેમની મનમાં ઇચ્છેલી તમામ વાતો પૂર્ણ થાય છે. જે પણ શ્રદ્ધા અને ભક્તિ સાથે ખોડિયાર માતાની આરાધના કરે છે, તેને જીવનમાં સૌમ્યતા, સુખ અને શાંતિ પ્રાપ્ત થાય છે.</p>
+    
+    <h2>Space for Family Celebrations</h2>
+    <p>ખોડિયાર માતા મંદિરની ભાવનાત્મક પૃષ્ઠભૂમિ અને શાંતિનો આનંદ માણતા, અમે લગ્ન, અને શ્રીમંત જેવા પ્રસંગો માટે ગ્રાઉન્ડની ભાડે આપીએ છીએ. આ જગ્યા તમારી વિશેષ પળોને ઉજવવા માટે એક સદાબહાર પાત્ર આપે છે, જ્યાં પરિવાર અને મિત્રો એકસાથે ભવ્યતાને ઉજવવા મળે છે. અમે તમારા સમારોહને સફળ બનાવવા માટે તમામ આવશ્યક સુવિધાઓ અને સેવાઓ પ્રદાન કરીએ છીએ, જેથી તમારી પ્રસંગો યાદગાર બની રહે. વધુ માહિતી માટે, કૃપા કરીને અમારો સંપર્ક કરો.</p>
+  
+    <div class="location-section" style="text-align: center; margin: 20px 0;">
+      <h2>Our Location</h2>
+      <p>આઈ શ્રી ખોડિયાર મંદિર - નગરા, ખંભાત, આણંદ - ૩૮૮૬૨૦</p>
+  </div>
+  
+    <div class="map-container">
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.9731673096446!2d72.6236087!3d22.3607713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f016433e7ff37%3A0xbae7686d05e096c!2sKhodiyar%20Mata%20Nagra%20Vav%202!5e0!3m2!1sen!2sin!4v1696049686120!5m2!1sen!2sin"
+          width="1100"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+      </iframe>
+  </div>
+  
+  <footer>
+    <p style="font-family: 'Raleway', sans-serif; font-size: 1rem; color: #fff; text-align: center; margin: 0;">© 2024 Khodiyar Mandir Nagra. All rights reserved.</p>
+  </footer>
+  
+  
+  
+</body>
+</html>
